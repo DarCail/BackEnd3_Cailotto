@@ -1,0 +1,25 @@
+{
+  "name": "backend3-entrega1-cailotto",
+  "version": "1.0.0",
+  "description": "Entrega 1 - Backend III - Sistema de Mocking",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["nodejs", "express", "mongodb", "mocking"],
+  "author": "Cailotto",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "bcrypt": "^5.1.1",
+    "@faker-js/faker": "^8.3.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
